@@ -1,5 +1,30 @@
 #main {
     background-color: rgb(229,229,249);
+    padding: 30px;
+    margin: 30px
 }
+
+#content {
+    color: white;
+    border: 5px solid darkblue;
+    background-color: #6b5acd;
+    margin: 20px 0px;
+    padding: 20px;
+
+}
+
+#content > div {
+    margin: 16px 0px;
+}
+
+.quote {
+    padding-left: 36px;
+}
+
+.quoteCitation {
+    margin-left: 36px;
+}
+
+
 
 
