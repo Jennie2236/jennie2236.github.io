@@ -27,6 +27,7 @@ serif, sans-serif, monospace, cursive, fantasy
 
 #p5 {
     font-style: italic;
+    text-decoration: green underline;
 }
 
 #p6 {
