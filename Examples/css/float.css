@@ -1,0 +1,11 @@
+img {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: 24px;
+}
+
+p{
+    background-color: pink;
+    margin: 10px;
+}
