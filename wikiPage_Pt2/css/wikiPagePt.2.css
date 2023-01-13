@@ -1,0 +1,89 @@
+#sidebar {
+    border: 1px solid #a2a9b1;
+    border-spacing: .5px;
+    background-color: #f8f9fa;
+    color: black;
+    float: right;
+    margin: 1px ;
+    padding: 2px ;
+    text-align: center;
+
+}
+
+.bold {
+    font-weight: bold;
+
+}
+
+#tableOfContents {
+    display: list-item;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    padding: 5px;
+    float:left;
+    color:#202122;
+    font-family: sans-serif;
+}
+
+div{
+    clear: both;
+}
+
+.actors {
+    border: 1px solid #c8ccd1;
+    background-color: #f8f9fa;
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+    padding: 3px;
+    margin: 20px;
+}
+
+.qouteCitation {
+    margin-left: 36px;
+}
+
+.thumbcaption {
+    border: 1px solid #c8ccd1;
+    background-color: #f8f9fa;
+    padding: 3px;
+    float: right;
+    text-align: center;
+    font-family: sans-serif;
+    color: #202122;
+    width: 500px;
+    margin: 20px;
+}
+
+.thumbinner {
+    border: 1px solid #c8ccd1;
+    background-color: #f8f9fa;
+    padding: 3px;
+    float: right;
+    text-align: center;
+    font-family: sans-serif;
+    color: #202122;
+    width: 500px;
+    margin: 20px;
+  
+
+}
+
+.thumbinnerleft {
+    border: 1px solid #c8ccd1;
+    background-color: #f8f9fa;
+    padding: 3px;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+    color: #202122;
+    width: 400px;
+    margin:25px;
+}
+
+
+
+
+
+
+
