@@ -4,9 +4,10 @@
     background-color: #f8f9fa;
     color: black;
     float: right;
-    margin: 1px ;
+    margin: 20px ;
     padding: 2px ;
     text-align: center;
+    width: 326px;
 
 }
 
@@ -19,10 +20,11 @@
     display: list-item;
     border: 1px solid #a2a9b1;
     background-color: #f8f9fa;
-    padding: 5px;
+    padding: 15px;
     float:left;
     color:#202122;
     font-family: sans-serif;
+    margin: 27px;
 }
 
 div{
@@ -37,6 +39,7 @@ div{
     vertical-align: middle;
     padding: 3px;
     margin: 20px;
+   
 }
 
 .qouteCitation {
@@ -79,6 +82,11 @@ div{
     color: #202122;
     width: 400px;
     margin:25px;
+}
+
+#img {
+    width: 167px;
+    vertical-align: middle;
 }
 
 
