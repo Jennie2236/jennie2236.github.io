@@ -62,6 +62,7 @@ figure img {
 
 Figure {
     float: left;
+    margin-bottom: 48px;
 }
 
 .clear {
