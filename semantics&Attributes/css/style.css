@@ -52,6 +52,7 @@ main h3 {
         box-shadow: 4px 4px 8px gray;
         padding: 48px;
         margin-bottom: 48px;
+        background-color: white;
 }
 
 figure img {
