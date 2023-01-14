@@ -27,3 +27,8 @@ main {
  nav a {
     color: brown;
  }
+
+ li.active a {
+    font-size: 200%;
+    color: navy;
+ }
