@@ -89,7 +89,21 @@ div{
     vertical-align: middle;
 }
 
+.sideBySide {
+    display:flex;
+    margin: 8px;
+}
 
+.sideBySide span:first-child{
+    font-weight: bold;
+    width: 150px;
+    text-align: left;
+
+}
+
+.sideBySide span {
+    text-align: left;
+}
 
 
 
