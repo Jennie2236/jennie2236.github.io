@@ -27,5 +27,10 @@ li a {
 
     ul {
         flex-direction: column;
+        align-items: center;
+    }
+
+    #home {
+        margin-right: inherit;
     }
 }
