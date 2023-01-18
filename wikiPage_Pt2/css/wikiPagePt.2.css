@@ -91,10 +91,12 @@ div{
 
 .sideBySide {
     display:flex;
+    justify-content: flex-start;
+    text-align: left;
     margin: 8px;
 }
 
-.sideBySide span:first-child{
+.sideBySide span:first-child {
     font-weight: bold;
     width: 150px;
     text-align: left;
