@@ -20,6 +20,11 @@ li a {
     margin-right: auto;
 }
 
+li.active a {
+    font-size: 200%;
+    color: navy;
+ }
+
 @media screen and (max-width: 768px) {
     body{
         background-color: skyblue;
