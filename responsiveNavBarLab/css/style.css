@@ -53,6 +53,10 @@ main img {
     width: 100%;
 }
 
+#logo img {
+    height: 50px;
+    margin-left: 12px;
+}
 
 
 
