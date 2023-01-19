@@ -1,0 +1,51 @@
+nav > ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav > ul > li {
+    background-color: lightgray;
+    padding: 12px;
+}
+
+nav > ul > li:hover {
+    background-color: bisque;
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+
+}
+
+.dropdown ul {
+    display: none;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+
+}
+
+.dropdown ul li {
+    background-color: beige;
+    padding: 12px;
+    width: 150%;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover ul {
+    display: flex;
+}
+
+
+
+
+
