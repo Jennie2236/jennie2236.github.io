@@ -64,17 +64,19 @@ main img {
 
 #logo img {
     height: 20px;
-    margin-left: 12px;
+    margin-left: 5px;
 }
 
-.images {
+.imageblock {
     display:flex;
-    flex-direction: row;
-    padding: 200px;
+    flex-direction: column;
+    
 }
 
-.images img {
+.imageblock img {
     flex: 1;
+    width: 100%;
+    border-radius: 24px;
 }
 
 
