@@ -70,9 +70,12 @@ main img {
 .images {
     display:flex;
     flex-direction: row;
-    border: 5px solid black;
+    padding: 200px;
 }
 
+.images img {
+    flex: 1;
+}
 
 
 
