@@ -4,6 +4,8 @@ nav > ul {
     list-style-type: none;
     padding: 0px;
     align-items: center;
+    max-width: 800px;
+    margin: 0px auto;
 }
 
 nav > ul > li {
@@ -12,7 +14,7 @@ nav > ul > li {
 }
 
 nav > ul > li:hover {
-    background-color: bisque;
+    background-color: rgb(170, 232, 242);
 }
 
 nav {
@@ -43,7 +45,7 @@ nav a {
 }
 
 .dropdown ul li {
-    background-color: beige;
+    background-color: rgb(170, 232, 242);
     padding: 12px;
     width: 150%;
 }
@@ -64,7 +66,7 @@ main img {
 
 #logo img {
     height: 20px;
-    margin-left: 5px;
+    margin-right: auto;
 }
 
 .imageblock {
@@ -79,6 +81,7 @@ main img {
 }
 
 body {
+    background-color: rgb(229, 235, 240);
     margin: 0px;
 }
 
@@ -87,25 +90,19 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    max-width: 800px;
+    margin: 24px auto;
 }
 
-.style {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+
+#hero {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: 50% 25%;
 }
 
-.style1 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
 
-.style2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
 
 @media screen and (max-width: 768px) {
     nav > ul {
@@ -116,6 +113,11 @@ body {
     .dropdown:hover ul {
         opacity: 0;
         visibility: hidden;
+    }
+
+    #logo img {
+        height: 20px;
+        margin-right: inherit;
     }
 
 }
