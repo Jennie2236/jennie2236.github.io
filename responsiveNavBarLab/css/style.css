@@ -89,6 +89,12 @@ body {
     text-align: center;
 }
 
+.style {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 @media screen and (max-width: 768px) {
     nav > ul {
         flex-direction: column;
