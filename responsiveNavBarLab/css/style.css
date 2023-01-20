@@ -3,6 +3,7 @@ nav > ul {
     justify-content: center;
     list-style-type: none;
     padding: 0px;
+    align-items: center;
 }
 
 nav > ul > li {
@@ -26,13 +27,18 @@ nav a {
 }
 
 .dropdown ul {
-    display: none;
     flex-direction: column;
     list-style-type: none;
     padding: 0px;
     position: absolute;
     left: 0px;
-    top: 100%;
+    top: 75%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        top 0.5s;
 
 }
 
@@ -47,7 +53,9 @@ nav a {
 }
 
 .dropdown:hover ul {
-    display: flex;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
 }
 
 main img {
