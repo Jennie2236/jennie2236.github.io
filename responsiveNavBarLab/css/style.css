@@ -67,6 +67,11 @@ main img {
     margin-left: 12px;
 }
 
+.images {
+    display:flex;
+    flex-direction: row;
+    border: 5px solid black;
+}
 
 
 
