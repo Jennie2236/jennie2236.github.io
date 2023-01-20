@@ -69,7 +69,6 @@ main img {
 
 .imageblock {
     display:flex;
-    flex-direction: row;
     
 }
 
