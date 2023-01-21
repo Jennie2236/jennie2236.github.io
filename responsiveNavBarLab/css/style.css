@@ -110,6 +110,11 @@ body {
     margin: 20px;
 }
 
+.style {
+    max-width: 800px;
+    margin: 24px auto;
+}
+
 
 
 @media screen and (max-width: 768px) {
