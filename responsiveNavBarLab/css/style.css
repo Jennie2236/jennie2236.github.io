@@ -115,6 +115,16 @@ body {
     margin: 24px auto;
 }
 
+.textandimage {
+    border: 1px solid #c8ccd1;
+    background-color: #f8f9fa;
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+    padding: 3px;
+    margin: 20px;
+}
+
 
 
 @media screen and (max-width: 768px) {
