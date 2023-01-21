@@ -100,6 +100,16 @@ body {
     object-position: 50% 25%;
 }
 
+.imageandtext {
+    border: 1px solid #c8ccd1;
+    background-color: #f8f9fa;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    padding: 3px;
+    margin: 20px;
+}
+
 
 
 @media screen and (max-width: 768px) {
