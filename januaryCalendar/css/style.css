@@ -10,3 +10,15 @@ td {
     padding: 12px;
 }
 
+thead tr:first-child {
+    background-color: rgb(41, 100, 41);
+    color:  white;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(208, 246, 208);
+}
+
+tbody td:hover {
+    color: red;
+}
