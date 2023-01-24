@@ -1,0 +1,23 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 12px;
+}
+
+thead tr {
+    background-color: pink;
+}
+
+#specialCell {
+    background-color: skyblue;
+}
+
+tbody tr:first-child {
+    background-color: lightgray;
+}
+
+colgroup col:first-child {
+    background-color: lightgreen;
+}
