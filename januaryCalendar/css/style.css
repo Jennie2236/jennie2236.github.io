@@ -1,5 +1,6 @@
 table {
     border-collapse: collapse;
+    margin: 48px;
 }
 
 th,
@@ -8,11 +9,13 @@ td {
     width: 150px;
     border: 1px solid black;
     padding: 12px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 thead tr:first-child {
     background-color: rgb(41, 100, 41);
     color:  white;
+    font-size: 40px;
 }
 
 tr:nth-child(even) {
@@ -22,3 +25,9 @@ tr:nth-child(even) {
 tbody td:hover {
     color: red;
 }
+
+tbody td {
+    vertical-align: top;
+}
+
+
