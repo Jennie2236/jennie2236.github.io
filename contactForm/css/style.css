@@ -7,5 +7,5 @@
 }
 
 header {
-    gris-area: header;
+    grid-area: header;
 }
