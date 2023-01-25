@@ -1,3 +1,8 @@
+body {
+    background-color: #
+    font-family: sans-serif;
+}
+
 #gridContainer  {
     display: grid;
     grid-template-columns: 1fr 600px 1fr;
@@ -8,4 +13,13 @@
 
 header {
     grid-area: header;
+    padding: 48px;
+    text-align: center;
+}
+
+#formContainer {
+    grid-area: content;
+    background-color: white;
+    border: 2px solid grey;
+
 }
