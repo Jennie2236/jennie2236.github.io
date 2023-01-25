@@ -1,0 +1,11 @@
+#gridContainer  {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas:
+        ".  header ."
+        ". content ."
+}
+
+header {
+    gris-area: header;
+}
