@@ -57,3 +57,15 @@
     width: 100px;
     margin-bottom: 24px;
 }
+
+#gallery6 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallery6 img{
+    height: 200px;
+    margin: 12px;
+    flex: 1 0 auto;
+    object-fit: cover;
+}
