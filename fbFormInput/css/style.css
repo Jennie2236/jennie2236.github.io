@@ -24,3 +24,38 @@ header img {
     height: 50px;
     margin: 24px;
 }
+
+#formContent {
+    grid-area: content;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 16px #cccccc;
+    text-align: center;
+}
+
+#formHeader {
+    border-bottom: 2px solid #dddddd;
+}
+
+input[type=text] {
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 4px;
+}
+
+#textInputsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px;
+}
+
+#firstNameInput,
+#lastNameInput {
+    flex: 1;
+}
+
+#phoneOrEmailInput,
+#passwordInput {
+    width: 100%;
+}
