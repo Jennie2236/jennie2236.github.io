@@ -41,12 +41,28 @@
                                 name="password"
                                 placeholder="New password">
                         </div>
-                        <div>
-                            <select>
-                                <option></option>
-                                <option></option>
-                                <option></option>
-                            </select>
+                        <div id="titleBdayPublicInputs">
+                            <div>
+                                <label>Prefered Title</label>
+                                <select id="titleSelector" name="title">
+                                    <option value="" disabled selected>Select Title</option>
+                                    <option value="none">None.</option>
+                                    <option value="mr">Mr.</option>
+                                    <option value="mrs">Mrs.</option>
+                                    <option value="ms">Ms.</option>
+                                    <option value="dr">Dr.</option>
+                                    <option value="sir">Sir.</option>
+                                    <option value="miss">Miss</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label>Birthday</label>
+                                <input type="date" name="birthday">
+                            </div>
+                            <div>
+                                <label>Make Public?</label>
+                                <input type="checkbox" name="isPublic">
+                            </div>
                         </div>
                     </form>
                 </div>
