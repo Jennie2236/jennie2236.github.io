@@ -37,9 +37,11 @@ header img {
     border-bottom: 2px solid #dddddd;
 }
 
+/* to turn in to a comment  remeber command slash */
 input[type=text],
 Input[type=date],
-select {
+select,
+#genderInputs > div {
     border: 2px solid #dddddd;
     border-radius: 4px;
     padding: 8px;
@@ -91,4 +93,18 @@ select {
     margin: 16px  0px 16px 8px;
 }
 
+#genderRadioButtons {
+    margin: 12px;
+    text-align: left;
+}
 
+#genderInputs {
+    display: flex;
+}
+
+#genderInputs > div {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+
+}

@@ -66,26 +66,28 @@
                         </div>
                         <div id="genderRadioButtons">
                             <label>Gender</label>
-                            <div>
-                                <label>Female</label>
-                                <input 
-                                    type="radio" 
-                                    name="gender"  
-                                    value="female">
-                            </div>
-                            <div>
-                                <label>Male</label>
-                                <input 
-                                    type="radio"
-                                    name="gender"
-                                    value="male">
-                            </div>
-                            <div>
-                                <label>Custom</label>
-                                <input 
+                            <div id="genderInputs">
+                                <div>
+                                    <label for="femaleRadio">Female</label>
+                                    <input id="femaleRadio"
+                                        type="radio" 
+                                        name="gender"  
+                                        value="female">
+                                </div>
+                                <div>
+                                    <label for="maleRadio">Male</label>
+                                    <input id="maleRadio"
+                                        type="radio"
+                                        name="gender"
+                                        value="male">
+                                </div>
+                                <div>
+                                <label for="customRadio">Custom</label>
+                                <input id="customRadio"
                                     type="radio"
                                     name="gender"
                                     value="custom">
+                                </div>
                             </div>
                         </div>
                     </form>
