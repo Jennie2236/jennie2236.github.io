@@ -137,3 +137,8 @@ a {
     display: block;
     margin: 24px;
 }
+
+input:invalid {
+    background-color: lightpink;
+    border-color: red;
+}
