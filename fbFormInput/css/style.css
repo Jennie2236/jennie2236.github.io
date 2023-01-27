@@ -40,6 +40,8 @@ header img {
 /* to turn in to a comment  remeber command slash */
 input[type=text],
 Input[type=date],
+Input[type=email],
+Input[type=password],
 select,
 #genderInputs > div,
 input[type=submit] {
