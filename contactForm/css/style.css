@@ -63,15 +63,18 @@ form label {
 
  @keyframes  invalidWiggle {
     0%, 100% {
-        transform: translateX(0px)
+        transform: translateX(0px);
+        background-color: white;
     }
 
     25% {
         transform: translateX(-15px);
+        background-color: red;
     }
 
     75% {
         transform: translateX(15px);
+        background-color: pink;
     }
  }
 
