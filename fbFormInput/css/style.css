@@ -142,3 +142,7 @@ input:invalid {
     background-color: lightpink;
     border-color: red;
 }
+
+input:valid {
+    border-color: #10a515;
+}
