@@ -80,10 +80,6 @@ form label {
  }
 
  @media screen and (max-width: 768px) and (min-width: 300px) {
-    body{
-        background-color: skyblue;
-    }
-
     ul {
         flex-direction: column;
         align-items: center;
