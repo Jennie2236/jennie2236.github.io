@@ -36,6 +36,7 @@ form label {
 }
 
  form input[type=text],
+ Input[type=email],
  form textarea,
  form select {
     padding:  12px;
