@@ -64,8 +64,10 @@ form label {
     animation: invalidWiggle 1s infinite
  }
 
-.required input:after { 
+.required label::after { 
     content:"*"; 
+    font-weight: bold;
+    color: red;
 }
 
 input:not(:focus):not(:placeholder-shown):invalid {
