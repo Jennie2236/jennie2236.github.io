@@ -63,7 +63,7 @@ form label {
     animation: invalidWiggle 1s infinite
  }
 
- .required input:after { 
+.required input:after { 
     content:"*"; 
 }
 
