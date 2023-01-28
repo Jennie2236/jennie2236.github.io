@@ -44,12 +44,13 @@ form label {
     margin-bottom: 16px;
  }
 
- form input[type=submit] {
+ form input[buttonType=submit] {
     background-color: #2c8cff;
     border: 0;
     border-radius: 4px;
     color: white;
     padding: 16px 24px;
+    text-align: center;
  }
 
  textarea::placeholder {
@@ -61,6 +62,15 @@ form label {
     box-shadow: 0px 0px 16px red;
     animation: invalidWiggle 1s infinite
  }
+
+ .required input:after { 
+    content:"*"; 
+}
+
+input:not(:focus):not(:placeholder-shown):invalid {
+    border: 3px solid red;
+box-shadow: 0px 0px 16px red;
+}
 
  @keyframes  invalidWiggle {
     0%, 100% {
