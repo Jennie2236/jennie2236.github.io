@@ -14,7 +14,7 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    treansition: filter 0.5s;
+    transition: filter 0.5s;
 }
 
 #hero1:hover {
