@@ -1,0 +1,16 @@
+#hero {
+    background-image: url(../assets/portfolio/creative.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: funkydori;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
