@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+#hero1 {
+    background-image: url("../assets/images/desert.jpg");
+    /* background-size: contain; */
+    background-size: cover;
+    /* background-position: center center; */
+    background-position: 75% 55%;
+    /* background: no-repeat; */
+    height: 500px;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    treansition: filter 0.5s;
+}
+
+#hero1:hover {
+    filter: blur(2px);
+}
+
+#hero1 h1 {
+    /* position: absolute;
+    top: 60px;
+    left: 60px; */
+    font-family: cursive;
+    font-size: 60px;
+
+}
