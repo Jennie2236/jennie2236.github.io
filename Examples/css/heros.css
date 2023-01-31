@@ -29,3 +29,32 @@ body {
     font-size: 60px;
 
 }
+
+p {
+    font-size: 32px;
+    margin: 48px;
+}
+
+#hero2 {
+    height: 100vh;
+    color: white;
+    background-image: url(../assets/images/forest.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+#hero2 h2 {
+    font-family: cursive;
+    font-size: 60px;
+}
+
+#hero2 h3 {
+    font-family: cursive;
+    font-size: 48px;
+} 
