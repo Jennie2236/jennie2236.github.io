@@ -220,11 +220,20 @@ footer h4 {
 }
 
 .col-container {
-  display: table; 
-  width: 100%; 
+  display: flex; 
+  width: 100%;
+  
 }
 
-.card my-3 {
-  display: table-cell;
+.col card my-3 {
+  flex: 1;
+  object-fit: fill;
+  padding: 16px;
+  height: 200px;
 }
+
+/* card img {    
+  height: 200px;    
+  object-fit: cover;
+} */
 
