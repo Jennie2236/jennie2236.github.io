@@ -218,3 +218,13 @@ footer h4 {
   font-family: "Bebas Neue";
   font-weight: bold;
 }
+
+.col-container {
+  display: table; 
+  width: 100%; 
+}
+
+.card my-3 {
+  display: table-cell;
+}
+
