@@ -225,15 +225,15 @@ footer h4 {
   
 }
 
-.col card my-3 {
+/* .col card my-3 {
   flex: 1;
   object-fit: fill;
   padding: 16px;
   height: 200px;
-}
+} */
 
-/* card img {    
+card img {    
   height: 200px;    
   object-fit: cover;
-} */
+}
 
