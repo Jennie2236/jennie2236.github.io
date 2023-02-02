@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+#hero {
+    background-image: url("../assets/images/mattePainting.jpg");
+    background-attachment: fixed;
+    color: white;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+    
