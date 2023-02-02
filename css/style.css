@@ -6,8 +6,7 @@ body {
     background-image: url("../assets/images/Matte.jpg");
     background-size: contain;
     background-size: cover;
-    background-position: center center;
-    background-position: 75% 55%;
+    background-position: center;
     height: 500px;
     position: relative;
     display:flex;
