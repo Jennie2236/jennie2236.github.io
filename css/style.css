@@ -1,2 +1,18 @@
+body {
+    margin: 0;
+}
 
+#hero {
+    background-image: url("../assets/images/Matte.jpg");
+    background-size: contain;
+    background-size: cover;
+    background-position: center center;
+    background-position: 75% 55%;
+    height: 500px;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
     
