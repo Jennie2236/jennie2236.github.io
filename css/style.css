@@ -3,12 +3,11 @@ body {
 }
 
 #hero {
-    background-image: url("../assets/images/mattePainting.jpg");
-    background-attachment: fixed;
+    background-image: url("../assets/images/Matte.jpg");
+    background-attachment: cover;
     color: white;
     height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
