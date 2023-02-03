@@ -176,20 +176,20 @@ footer h4, footer h5, footer h6 {
   flex: 1;
   margin-bottom:50px;
 }
-.footer-right {
+/* .footer-right {
   flex:3;
   margin-left:25px;
-}
+} */
 footer h4 {
   font-size: 2em;
 }
-.footer-right h6 {
+/* .footer-right h6 {
   font-size: 1.5em;
 }
 .footer-right p {
   margin-left: 15px;
-  margin-top: 10px;
-}
+  margin-top: 10px; */
+/* } */
 
 .footer-feet {
   background-color: #f8feff;
@@ -216,7 +216,7 @@ footer h4 {
   line-height: 0.65;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  font-family: "Bebas Neue";
+  font-family: "montserrat";
   font-weight: bold;
 }
 
