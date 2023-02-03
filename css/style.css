@@ -6,7 +6,7 @@ body {
     background-image: url("../assets/images/Matte.jpg");
     background-attachment: cover;
     color: white;
-    height: 30vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
