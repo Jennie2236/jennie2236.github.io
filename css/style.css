@@ -3,20 +3,12 @@ body {
 }
 
 #hero {
-    background-image: url("../assets/images/Matte.jpg");
-    background-size: contain;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    position: relative;
-    display:flex;
+    background-image: url("../assets/images/mattePainting.jpg");
+    background-attachment: fixed;
+    color: white;
+    height: 30vh;
+    display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-}
 
-h1 {
-    font-family: funky;
-    font-size: 60px;
 }
-    
