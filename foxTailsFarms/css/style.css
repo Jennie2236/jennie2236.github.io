@@ -28,15 +28,15 @@ body {
 
 header {
   border-bottom: 2px solid #000000;
-  display:flex;
+  display: flexbox;
   align-items: center;
   justify-content: space-between;
   padding:50px;
   background-color:#e1a177;
-  color:#000000;
+  color:#000000
 }
 .header-top{
-  width:15%;
+    width: 100%;
 }
 
 nav {

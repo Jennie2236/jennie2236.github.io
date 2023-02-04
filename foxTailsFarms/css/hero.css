@@ -28,9 +28,12 @@ h1 {
 
   h3{
     font-family: lobster;
+
   }
 
-  .logo{
-    display:flex;
-    
-  }
+.carousel-inner {
+  max-height: 500px;
+
+}
+
+
