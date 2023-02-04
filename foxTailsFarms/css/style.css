@@ -28,7 +28,7 @@ body {
 
 header {
   border-bottom: 2px solid #000000;
-  display: flex;
+  display: flexbox;
   align-items: center;
   justify-content: space-between;
   padding:50px;
