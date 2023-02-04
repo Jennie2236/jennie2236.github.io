@@ -17,14 +17,6 @@ h1 {
     margin:0px;
 }
 
-/* .col-container {
-    display: table; 
-    width: 100%; 
-  }
-
-  .col {
-    display: table-cell;
-  } */
 
   h3{
     font-family: lobster;
@@ -32,8 +24,12 @@ h1 {
   }
 
 .carousel-inner {
-  max-height: 500px;
+  max-height: 600px;
 
 }
 
+footer {
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
