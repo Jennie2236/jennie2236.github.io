@@ -108,7 +108,7 @@ nav a:hover {
   text-align: right;
   /* font-style: italic; */
   font-weight: 600;
-  margin:0px;
+  margin: 0px;
 }
 #site_logo:hover,.site_title:hover,.site_quote:hover {
   color:#000000;
@@ -120,6 +120,7 @@ nav a:hover {
 main {
   padding: 25px 15%;
   background-color: #f3efef;
+  margin: 0px;
 }
 
 /* contents: */
