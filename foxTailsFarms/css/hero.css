@@ -33,3 +33,8 @@ footer {
     grid-template-columns: 1fr 1fr;
 }
 
+#logo img {
+  height: 200px;
+  margin-right: auto;
+}
+
