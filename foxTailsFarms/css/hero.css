@@ -54,3 +54,9 @@ footer img {
   margin-left: 20px;
 }
 
+main #gallery img {
+  height: 200px;
+    margin: 12px;
+    flex: 1 0 auto;
+    object-fit: cover;
+}
