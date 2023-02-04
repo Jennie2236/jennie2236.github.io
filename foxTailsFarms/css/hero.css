@@ -41,3 +41,12 @@ footer {
 header h1 {
   margin-left: auto;
 }
+
+footer img {
+  margin-top: auto;
+  height: 200px;
+  margin-left: 0;
+  margin-bottom: auto;
+
+}
+
