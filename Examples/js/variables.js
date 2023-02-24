@@ -17,13 +17,15 @@ console.log(myNumber);
 myNumber = 10;
 console.log(myNumber);
 
-myNumber = "one thousand";
-console.log(myNumber);
+// we can change the value assigned of a variable
+// myNumber = "one thousand";
+// console.log(myNumber);
 
 //we can also use opearators for variables assignments
 let myNewNumber = 5 + 4
 console.log(myNewNumber)
 
+//we can also use opearators in variables assignments
 let anotherNumber = myNumber + myNewNumber;
 console.log(anotherNumber);
 
