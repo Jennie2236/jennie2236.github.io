@@ -1,5 +1,6 @@
 body {
     margin: 0;
+
 }
 
 #hero {
@@ -9,16 +10,18 @@ body {
     align-items: center;
     height: 100vh;
     background-color: black;
+    background-image: url("../assets/santa.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #countdown {
-    color: white;
-    border: 5px solid green;
+    color: black;
     padding: 20px;
+    border-bottom: 5px dotted;
 }
 
 h2 {
-    border: 5px solid green;
     padding: 12px;
     color: red;
 }
