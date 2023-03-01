@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-image: url(../assets/images/Christmas.jpg);
 }
 
 #hero {
@@ -9,6 +8,21 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: lavender;
+    background-color: black;
 }
 
+#countdown {
+    color: white;
+    border: 5px solid green;
+    padding: 20px;
+}
+
+h2 {
+    border: 5px solid green;
+    padding: 12px;
+    color: red;
+}
+
+
+  
+  
