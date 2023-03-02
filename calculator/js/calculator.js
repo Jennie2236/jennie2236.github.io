@@ -22,5 +22,5 @@ function displayMultiply() {
     result.innerHTML = input1.value * input2.value;
 }
 
-displayMultiply();
+
 
