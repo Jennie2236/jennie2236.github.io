@@ -12,8 +12,21 @@ function openLightbox() {
     lightbox.src = this.src;
 }
 
-let coffeeImage = document.getElementById("coffeeImage");
-coffeeImage.onclick = openLightbox;
+let artImage = document.getElementById("artImage");
+artImage.onclick = openLightbox;
+
+let buildingImage = document.getElementById("buildingImage");
+buildingImage.onclick = openLightbox;
+
+let building1Image = document.getElementById("building1Image");
+building1Image.onclick = openLightbox;
+
+let portraitImage = document.getElementById("portraitImage");
+portraitImage.onclick = openLightbox;
+
+let wildlifeImage = document.getElementById("wildlifeImage");
+wildlifeImage.onclick = openLightbox;
+
 
 function closeLightbox() {
     lightboxContainer.classList.remove("display");
