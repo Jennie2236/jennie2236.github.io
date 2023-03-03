@@ -5,7 +5,7 @@ const page  = document.getElementById("page");
 
 function toggleDropdown() {
     navDropdown.classList.toggle("reveal");
-    navArrow.classList.toggle(arrow-flip);
+    navArrow.classList.toggle("arrow-flip");
 }
 
 navButton.addEventListener("click", function(e) {
