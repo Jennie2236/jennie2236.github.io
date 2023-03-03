@@ -17,3 +17,14 @@ page.addEventListener("click", function(e) {
         toggleDropdown();
     }
 });
+
+//mouse Move Demo
+const follower = document.getElementById("follower");
+
+document.addEventListener("mousemove", function(e)  {
+    let x = e.pageX;
+    let y = e.pageY;
+
+    follower.style.top = y + "px";
+    follower.style.left = x + "px";
+});
