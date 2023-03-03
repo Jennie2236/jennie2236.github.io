@@ -1,10 +1,5 @@
 let mode = "light";
 
-let storedMode = localStorge.getItem("mode");
-if (storedMode != null) {
-    mode =  storedMode;
-}
-
 const body = document.getElementById("body");
 const header = document.getElementById("header");
 const button = document.getElementById("modeToggle");
@@ -33,7 +28,6 @@ function toggleMode() {
     } else if (mode == "dark") {
         mode = "light";
     }
-    localStorage.setItem("mode", mode);
     displayMode();
 }
 
