@@ -32,5 +32,26 @@ console.log(lastGroceryItem);
 
 //use push method to add to a array
 console.log(groceryList);
-grocerryList.push("ice cream");
+groceryList.push("ice cream");
 console.log(groceryList);
+
+//start of dynamicc  list  demo
+
+const pageList = document.getElementById("pageList");
+const itemInput = document.getElementById("itemInput");
+const itemSubmit = document.getElementById("itemSubmit");
+
+function displayList() {
+    pageList.innerHTML = groceryList
+        .toString()
+        .replaceAll(",", "<br>");
+}
+
+displayList();
+
+itemSubmit.addEventListener("click", function(e) {
+    let newItem = itemInput.value;
+    itemInput.value  = "";
+    groceryList.push(newItem);
+    displayList();
+})
