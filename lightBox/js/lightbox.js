@@ -12,20 +12,26 @@ function openLightbox() {
     lightbox.src = this.src;
 }
 
-let artImage = document.getElementById("artImage");
-artImage.onclick = openLightbox;
+// let artImage = document.getElementById("artImage");
+// artImage.onclick = openLightbox;
 
-let buildingImage = document.getElementById("buildingImage");
-buildingImage.onclick = openLightbox;
+// let buildingImage = document.getElementById("buildingImage");
+// buildingImage.onclick = openLightbox;
 
-let building1Image = document.getElementById("building1Image");
-building1Image.onclick = openLightbox;
+// let building1Image = document.getElementById("building1Image");
+// building1Image.onclick = openLightbox;
 
-let portraitImage = document.getElementById("portraitImage");
-portraitImage.onclick = openLightbox;
+// let portraitImage = document.getElementById("portraitImage");
+// portraitImage.onclick = openLightbox;
 
-let wildlifeImage = document.getElementById("wildlifeImage");
-wildlifeImage.onclick = openLightbox;
+// let wildlifeImage = document.getElementById("wildlifeImage");
+// wildlifeImage.onclick = openLightbox;
+
+let galleryImages = document.getElementsByClassName('galleryImages');
+for (let i = 0; i < galleryImages.length; i++) {
+    let galleryImage = galleryImages[i];
+    galleryImage.onclick = openLightbox;
+}   
 
 
 function closeLightbox() {
@@ -33,5 +39,11 @@ function closeLightbox() {
     lightbox.src = "";
 }
 
-lightboxCloser.onclick = closeLightbox;
-lightboxBackground.onclick = closeLightbox;
+// lightboxCloser.onclick = closeLightbox;
+// lightboxBackground.onclick = closeLightbox;
+
+let closers = document.getElementsByClassName('closer');
+for (let i = 0; i < closers.length; i++) {
+    let closer = closers[i];
+    closer.onclick = closeLightbox;
+}   
