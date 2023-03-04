@@ -27,7 +27,7 @@ function openLightbox() {
 // let wildlifeImage = document.getElementById("wildlifeImage");
 // wildlifeImage.onclick = openLightbox;
 
-let galleryImages = document.getElementsByClassName('galleryImages');
+let galleryImages = document.getElementsByClassName('galleryImage');
 for (let i = 0; i < galleryImages.length; i++) {
     let galleryImage = galleryImages[i];
     galleryImage.onclick = openLightbox;
