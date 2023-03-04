@@ -29,7 +29,7 @@ function openLightbox() {
 
 let galleryImage = document.getElementsByClassName('galleryImage');
 for (let i = 0; i < galleryImage.length; i++) {
-    let galleryImage = galleryImages[i];
+    let galleryImage = galleryImage[i];
     galleryImage.onclick = openLightbox;
 }   
 
