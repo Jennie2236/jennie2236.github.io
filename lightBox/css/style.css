@@ -8,7 +8,7 @@
 
 .main {
     background-image: url("../images/netflixBackground.jpg");
-    background-size: 100vh;
+    background-size: cover;
     background-position: 75% 55%;
     color: white;
     height: 500px;
