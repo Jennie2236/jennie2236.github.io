@@ -1,0 +1,60 @@
+.banner {
+    background-color: white;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main {
+    background-image: url("../images/netflixBackground.jpg");
+    background-size: 100vh;
+    background-position: 75% 55%;
+    color: white;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul > li #logo img {
+    height: 20px;
+    margin-right: auto;
+}
+
+.buttonNew {
+background-color: #e50914;
+    border-radius: 17px;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 600;
+    margin: 0.5rem 1rem;
+    padding: 0.2rem 0.5rem;
+    text-transform: uppercase;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.plan {
+    margin-top: 50px;
+    padding-top: 20px;
+
+}
+
+body {
+    background-color: black;
+}
+
+a #logo {
+    height: 20px;
+    margin-right: auto;
+} 
+
+.buttonLearn {
+    color: #0071eb;
+    font-weight: bold;
+}
