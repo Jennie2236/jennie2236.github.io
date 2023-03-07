@@ -12,20 +12,18 @@
     background-position: 75% 55%;
     color: white;
     height: 500px;
+    flex-direction: row;
     object-fit: cover;
     position: relative;
     display:flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-nav > ul > li #logo img {
-    height: 20px;
-    margin-right: auto;
-}
 
 .buttonNew {
-background-color: #e50914;
+    background-color: #e50914;
     border-radius: 17px;
     color: #fff;
     font-size: .8rem;
@@ -50,11 +48,40 @@ body {
 }
 
 a #logo {
-    height: 20px;
+    height: 200px;
     margin-right: auto;
+    float: right;
 } 
 
 .buttonLearn {
     color: #0071eb;
     font-weight: bold;
+}
+
+img {
+    width: 100%;
+    float: right;
+    height: 150px;
+    position: relative;
+    text-align: center;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0px;
+    align-items: center;
+    max-width: 800px;
+    margin: 0px auto;
+    position: relative;
+
+}
+
+.form {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
