@@ -67,17 +67,6 @@ img {
 
 }
 
-nav > ul {
-    display: flex;
-    justify-content: flex
-    list-style-type: none;
-    padding: 0px;
-    align-items: center;
-    max-width: 800px;
-    margin: 0px;
-    top: 0;
-}
-
 .form {
     float: none;
     top: 50%;
@@ -88,4 +77,13 @@ nav > ul {
 }
 
 
-
+nav> ul {
+    display:flex;
+    justify-content: flex;
+    padding: 0px;
+    align-items: center;
+    max-width: 800px;
+    margin: 0px;
+    top: 0;
+    list-style-type: none;
+}
