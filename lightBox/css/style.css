@@ -60,7 +60,7 @@ a #logo {
     font-weight: bold;
 }
 
-img {
+#navbar img {
     width: 100%;
     float: right;
     height: 150px;
