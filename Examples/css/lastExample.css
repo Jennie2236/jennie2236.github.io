@@ -63,6 +63,40 @@
     margin-right: auto;   
 }
 
+#flexbox1 li {
+    list-style-type: none;
+}
 
+/*******FLEXBOX2 SECTION********/
+
+#flexbox2 {
+    min-height: 500px;
+}
+
+#flexbox2.topLeft {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#flexbox2.bottomRight {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+#flexbox2.center {
+    justify-content: center;
+    align-items: center;
+}
+
+#flexbox2.topRight {
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#flexbox2.bottomLeft {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
 
 
