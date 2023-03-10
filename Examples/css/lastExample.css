@@ -9,7 +9,6 @@
     padding: 36px;
 }
 
-
 #flexbox1,
 #flexbox2,
 #flexbox3 {
@@ -100,3 +99,27 @@
 }
 
 
+#flexbox2.column {
+    flex-direction: column;
+}
+
+#flexbox2 {
+    background-color: darkslategray;
+}
+
+/***** FLEXBOX3 SECTION ******/
+
+#flexbox3 {
+   flex-wrap: wrap;
+}
+
+#flexbox3.narrow{
+    padding: 200px;
+}
+
+#flexbox3.threeColumns .box {
+    /*required for sizing calculations*/
+    box-sizing: border-box;
+
+    width: calc(33.33% - 24px);
+}
