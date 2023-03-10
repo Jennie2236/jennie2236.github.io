@@ -123,3 +123,7 @@
 
     width: calc(33.33% - 24px);
 }
+
+#flexbox3.fillSpace .box {
+    flex: 1;
+}
