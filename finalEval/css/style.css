@@ -1,0 +1,5 @@
+.main {
+    background-image: 
+        radial-gradient(transparent, black),
+        url("../assets/images/backgroundLarge.jpg");
+}
