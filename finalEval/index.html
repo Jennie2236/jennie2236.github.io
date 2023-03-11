@@ -11,19 +11,17 @@
     </head>
     <body>
         <nav id="navBar">
-            <img 
+            <img
                 alt="logo" 
                 src="assets/images/disneyPlusLogo.svg">
-            <button id="blueButton">SIGN UP NOW</button>
-            <button class="button">LOG IN</button>
+            <button class="blueButton">SIGN UP NOW</button>
+            <button id="button">LOG IN</button>
         </nav>
         <div class="main">
-            <img 
+            <img id="bundle"
             alt="Hulu Disney Espn" 
             src="assets/images/huluDisneyESPN.png">
-            <br>
             <h4>Enter your email to create or restart your subcription</h4>
-            <br>
             <form>
                 <input 
                   id="emailInput"
@@ -33,13 +31,16 @@
                   minlength="2"
                   maxlength="30"
                   required>
-                <input type="submit" class="button" value= "GET THE DISNEY BUNDLE">
+                <input type="submit" class="emailButton" value= "GET THE DISNEY BUNDLE">
             </form>
             <br>
-            <h6>All of these and more now streaming.</h6>
-            <h6 id="terms">Terms Apply</h6>
+            <div class="sideBySide">
+                <span id="fine">All of these and more now streaming.</span>
+                <span class="bold">Terms Apply</span>
+            </div>
             <br>
-            <img 
+            <br>
+            <img id="sources"
                 alt="Hulu Disney Espn" 
                 src="assets/images/disneyAndMore.png">
             <br>
@@ -48,13 +49,13 @@
         <nav id="nav2">
             <ul>
                 <li>
-                     <a href="#" id="link1">TRENDING</a>
+                     <a href="#" id="link">TRENDING</a>
                 </li>
                 <li>
-                     <a href="#" id="link2">NEW ON DISNEY +</a>
+                     <a href="#" id="link">NEW ON DISNEY +</a>
                 </li> 
                 <li>
-                    <a href="#" id="link3">COMING SOON</a>
+                    <a href="#" id="link">COMING SOON</a>
                 </li>
             </ul> 
         </nav>
@@ -78,6 +79,23 @@
                 src="assets/images/zootopiaPlus.jpg" 
                 alt="Zootopia">
           </div>
+          <br>
+          <br>
+          <br>
+        <footer>
+            <img class="center"
+                alt="logo" 
+                src="assets/images/disneyPlusLogo.svg">
+            <br>
+            <br>
+            <div>
+                <div class="sideBySide">Subcriber Agreement</div>
+                <div class="sideBySide">Privacy Policy</div>
+                <div class="sideBySide">Your California Privacy Rights</div>
+            </div>
+            
+            <P>© Disney. All Rights Reserved.</P>
+        </footer>
           <script src="js/finalEval.js"></script>
     </body>
 </html>
