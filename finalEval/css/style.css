@@ -1,5 +1,49 @@
+#navBar {
+    align-items: center;
+    background-color: #040714;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#navBar img {
+    display: flex;
+    float: right;
+    height: 150px;
+    margin-left: auto;
+    padding-left: 50px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
 .main {
     background-image: 
-        radial-gradient(transparent, black),
+        radial-gradient(transparent, #040714),
         url("../assets/images/backgroundLarge.jpg");
+    background-size: cover;
+    background-position: 75% 55%;
+    color: white;
+    min-height: 75vh;
+    object-fit: cover;
+}
+
+#blueButton {
+    background-color: #0063e5;
+    border-radius: 17px;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+}
+
+body {
+    background-color: black;
+}
+
+#nav2 {
+    display:flex;
+    color: white;
+    justify-content: center;
+    margin-right: auto;
+    list-style: none;
 }

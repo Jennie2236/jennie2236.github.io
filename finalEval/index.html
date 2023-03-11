@@ -6,16 +6,78 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Final Eval</title>
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/gallery.css" rel="stylesheet">
+        <link href="css/lightbox.css" rel="stylesheet">
     </head>
     <body>
+        <nav id="navBar">
+            <img 
+                alt="logo" 
+                src="assets/images/disneyPlusLogo.svg">
+            <button id="blueButton">SIGN UP NOW</button>
+            <button class="button">LOG IN</button>
+        </nav>
         <div class="main">
-            <nav>
-                <img 
-                    alt="logo" 
-                    src="assets/images/DisneyPlusLogo.png">
-                <button id="bluebutton">SIGN UP NOW</button>
-                <button class="button">LOG IN</button>
-            </nav>
+            <img 
+            alt="Hulu Disney Espn" 
+            src="assets/images/huluDisneyESPN.png">
+            <br>
+            <h4>Enter your email to create or restart your subcription</h4>
+            <br>
+            <form>
+                <input 
+                  id="emailInput"
+                  type="email" 
+                  name="email"
+                  placeholder="email"
+                  minlength="2"
+                  maxlength="30"
+                  required>
+                <input type="submit" class="button" value= "GET THE DISNEY BUNDLE">
+            </form>
+            <br>
+            <h6>All of these and more now streaming.</h6>
+            <h6 id="terms">Terms Apply</h6>
+            <br>
+            <img 
+                alt="Hulu Disney Espn" 
+                src="assets/images/disneyAndMore.png">
+            <br>
+            <h5>View All Plan Options</h5>
         </div>
+        <nav id="nav2">
+            <ul>
+                <li>
+                     <a href="#" id="link1">TRENDING</a>
+                </li>
+                <li>
+                     <a href="#" id="link2">NEW ON DISNEY +</a>
+                </li> 
+                <li>
+                    <a href="#" id="link3">COMING SOON</a>
+                </li>
+            </ul> 
+        </nav>
+        <div  id="gallery">
+            <img class="galleryImage" 
+                src="assets/images/andor.jpg" 
+                alt="Andor">
+            <img class="galleryImage" 
+                src="assets/images/encanto.jpg" 
+                alt="Encacnto">
+            <img class="galleryImage" 
+                src="assets/images/fireOfLove.jpg" 
+                alt="Fire Of Love">
+            <img class="galleryImage" 
+                src="assets/images/turningRed.jpg" 
+                alt="Turning Red">
+            <img class="galleryImage" 
+                src="assets/images/wakandaForever.jpg" 
+                alt="Wakanda Forever">
+            <img class="galleryImage" 
+                src="assets/images/zootopiaPlus.jpg" 
+                alt="Zootopia">
+          </div>
+          <script src="js/finalEval.js"></script>
     </body>
 </html>

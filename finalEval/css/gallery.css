@@ -1,0 +1,30 @@
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+#gallery img {
+height: 200px;
+margin: 12px;
+flex: 1 0 auto;
+object-fit: cover;
+opacity: 0.8;
+transition: opacity 0.25s, transform 0.25s;
+}
+
+#gallery img:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 480px) {
+    #gallery img {
+      height: auto;
+      width: 100%;
+    }
+}
+  
